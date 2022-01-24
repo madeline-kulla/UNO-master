@@ -42,7 +42,7 @@ module.exports = class Card {
     }
 
     get URL() {
-        return `https://raw.githubusercontent.com/madeline-kulla/pepn-uno/master/${this.color || ''}${this.id}.png`;
+        return `https://raw.githubusercontent.com/madeline-kulla/UNO-master/master/cards/${this.color || ''}${this.id}.png`;
     }
 
     get value() {
